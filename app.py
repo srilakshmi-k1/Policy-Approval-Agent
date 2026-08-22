@@ -841,9 +841,7 @@ if st.button(
         )
     else:
         with st.spinner(
-            "with st.spinner(
     "⏳ Please wait while the AI interprets the policies. This may take a few seconds...",
-):"
         ):
             parsed_rules, parse_errors = (
                 parse_policy(
