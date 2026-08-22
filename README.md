@@ -18,7 +18,6 @@ The demo covers:
 - Approval, rejection, and escalation results
 - Traceable decision rationale
 - Non-technical policy modification
-- One design tradeoff
 
 ## 🎯 Assignment Objective
 
