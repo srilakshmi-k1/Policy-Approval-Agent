@@ -1,4 +1,4 @@
-# 🤖 Policy-Driven Approval Agent
+#  Policy-Driven Approval Agent
 
 A Streamlit-based policy automation agent that converts **plain-English business rules** into structured rules and applies them to a batch of expense claims.
 
