@@ -828,6 +828,7 @@ policy_text = st.text_area(
 # PARSE BUTTON
 if st.button(
     "🧠 Interpret Policies with Gemini AI",
+    type="primary",
 ):
     if not policy_text.strip():
         st.error(
@@ -840,8 +841,9 @@ if st.button(
         )
     else:
         with st.spinner(
-            "⏳ Please wait while the AI interprets the policies. This may take a few seconds...",
-    type="primary"
+            "with st.spinner(
+    "⏳ Please wait while the AI interprets the policies. This may take a few seconds...",
+):"
         ):
             parsed_rules, parse_errors = (
                 parse_policy(
